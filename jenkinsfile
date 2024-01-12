@@ -1,0 +1,56 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('SCM') {
+            steps {
+               echo 'hai'
+            }
+        }
+        stage('nandini') {
+            steps {
+                echo 'hello'
+            }
+        }
+        stage('1') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('test') {
+            steps {
+                echo 'welcome'
+            }
+        }
+        stage('compile') {
+            steps {
+                echo 'trueeeeeee'
+            }
+        }
+        stage('pacakge') {
+            steps {
+                echo 'this first pipeline'
+            }
+        }
+        stage('bnjkl') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('frtgyuio') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('[poiuhyg]') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('ok,kmjh') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
+}
